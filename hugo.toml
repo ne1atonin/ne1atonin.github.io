@@ -1,0 +1,39 @@
+baseURL = "https://ne1atonin.github.io/"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Asha/Herro"
+
+theme = "DoIt"
+
+[params]
+  version = "0.4.0"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    title = "Blog"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    noClasses = false
