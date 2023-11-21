@@ -9,6 +9,7 @@ paginate = 11
 enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
+# test asdf
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
 
 [author]
@@ -16,7 +17,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
   email = ""
   link = "https://ne1atonin.github.io"
 
-  [menu]
+[menu]
   [[menu.main]]
     identifier = "posts"
     pre = ""
@@ -48,7 +49,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
   description = "Unless you're really looking!"
   keywords = ["Hugo", "TryHackMe", "CyberSecurity"]
   defaultTheme = "auto"
-  gitRepo = ""https://github.com/HEIGE-PCloud/DoIt"
+  gitRepo = "https://github.com/HEIGE-PCloud/DoIt"
   fingerprint = ""
   dateFormat = "2006-01-02"
   images = ["/logo.png"]
@@ -61,7 +62,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
     themeChangeMode = "select"
     [params.header.title]
       logo = ""
-      name = "Asha/Herro~"
+      name = "Asha/Herro"
       pre = "<i class='fa-solid fa-terminal' aria-hidden='true'></i>"
       post = ""
       typeit = true
@@ -74,7 +75,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
     author = true
     since = 2023
     license = '<a rel="This is free and unencumbered software released into the public domain." href="https://unlicense.org" target="_blank">The Unlicense</a>'
-
+  
   [params.section]
     paginate = 20
     dateFormat = "01-02"
@@ -197,21 +198,18 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
       HackerNews = true
       Reddit = true
       Mastodon = true
-
     [params.page.instantpage]
       enable = false
-
     [params.page.comment]
       enable = false
-
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
         # Enhance third-party library config
         # [params.page.library.css.someOtherCSS]
-        #   src = "someOther.css"
-        #   defer = true
-        #   attr = "customAttribute"
+        # src = "someOther.css"
+        # defer = true
+        # attr = "customAttribute"
         # located in "assets/"
         # Or
         # someCSS = "https://cdn.example.com/some.css"
@@ -219,14 +217,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
         # someJavaScript = "some.js"
         # Enhance third-party library config
         # [params.page.library.js.someOtherJavaScript]
-        #   src = "someOther.js"
-        #   defer = false
-        #   async = true
-        #   attr = "customAttribute"
+        # src = "someOther.js"
+        # defer = false
+        # async = true
+        # attr = "customAttribute"
         # located in "assets/"
         # Or
         # someJavaScript = "https://cdn.example.com/some.js"
-
     [params.page.seo]
       images = []
       [params.page.seo.publisher]
@@ -245,11 +242,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
   # CDN config for third-party library files
   [params.cdn]
     # CDN data file name, disabled by default
-    # ("jsdelivr.yml")
+    # ["jsdelivr.yml"]
     # located in "themes/DoIt/assets/data/cdn/" directory
     # you can store your own data files in the same path under your project:
     # "assets/data/cdn/"
-    data = ""
+    data = "jsdelivr.yml"
 
 [markup]
   [markup.highlight]
