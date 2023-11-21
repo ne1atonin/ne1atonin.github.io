@@ -5,17 +5,19 @@ title = "Asha/Herro"
 
 theme = "DoIt"
 
-[params]
-  version = "0.4.0"
+[author]
+  name = "Asha/Herro"
+  email = ""
+  link = "https://ne1atonin.github.io"
 
-[menu]
+  [menu]
   [[menu.main]]
     identifier = "posts"
     pre = ""
     post = ""
     name = "Posts"
     url = "/posts/"
-    title = "Blog"
+    title = "Posts"
     weight = 1
   [[menu.main]]
     identifier = "tags"
@@ -34,6 +36,277 @@ theme = "DoIt"
     title = ""
     weight = 3
 
+[params]
+  version = "0.4.0"
+  title = "Nothing to See Here..."
+  description = "Unless you're really looking!"
+  keywords = ["Hugo", "TryHackMe", "CyberSecurity"]
+  defaultTheme = "auto"
+  gitRepo = ""
+  fingerprint = ""
+  dateFormat = "2006-01-02"
+  images = ["/logo.png"]
+  enablePWA = false
+  cacheRemoteImages = false
+  license = '<a rel="This is free and unencumbered software released into the public domain." href="https://unlicense.org" target="_blank">The Unlicense</a>'
+
+  [params.app]
+    title = "Asha/Herro"
+    noFavicon = false
+    svgFavicon = ""
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+  [params.search]
+    enable = true
+    type = "fuse"
+    contentLength = 4000
+    placeholder = ""
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+    [params.search.fuse]
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.3
+      distance = 100
+      ignoreLocation = false
+      useExtendedSearch = false
+      ignoreFieldNorm = false
+  
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    themeChangeMode = "select"
+    [params.header.title]
+      logo = ""
+      name = "Asha/Herro~"
+      pre = "<i class='fa-solid fa-terminal' aria-hidden='true'></i>"
+      post = ""
+      typeit = true
+  
+  [params.footer]
+    enable = true
+    custom = ''
+    hugo = true
+    copyright = true
+    author = true
+    since = 2023
+    license = '<a rel="This is free and unencumbered software released into the public domain." href="https://unlicense.org" target="_blank">The Unlicense</a>'
+
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+    [params.section.recentlyUpdated]
+      enable = false
+      rss = false
+      days = 30
+      maxCount = 10
+
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = "/images/avatar.webp"
+      avatarLinkURL = ""
+      title = ""
+      subtitle = "All the things"
+      typeit = true
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 5
+      defaultHiddenFromHomePage = false
+
+  [params.social]
+    GitHub = "ne1atonin"
+    Linkedin = ""
+    Youtubechannel = ""
+    Reddit = ""
+    Email = ""
+    TryHackMe = ""
+    HackTheBox = ""
+
+  [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = true
+    lightgallery = true
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = false
+    linkToSource = false
+    linkToEdit = false
+    linkToReport = false
+    rssFullText = false
+    seriesNavigation = true
+    enableLastMod = true
+    enableWordCount = true
+    enableReadingTime = false
+    [params.page.outdatedArticleReminder]
+      enable = false
+      reminder = 90
+      warning = 180
+    [params.page.toc]
+      enable = true
+      keepStatic = true
+      auto = true
+    [params.page.math]
+      enable = true
+      blockLeftDelimiter = ""
+      blockRightDelimiter = ""
+      inlineLeftDelimiter = ""
+      inlineRightDelimiter = ""
+      copyTex = true
+      mhchem = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 50
+    [params.page.mapbox]
+      accessToken = ""
+      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+      navigation = true
+      geolocate = true
+      scale = true
+      fullscreen = true
+    [params.page.share]
+      enable = true
+      Twitter = true
+      Linkedin = true
+      HackerNews = true
+      Reddit = true
+      Mastodon = true
+
+    [params.page.instantpage]
+      enable = false
+
+    [params.page.comment]
+      enable = false
+
+  [params.page.library]
+    [params.page.library.css]
+      # someCSS = "some.css"
+      # Enhance third-party library config
+      # [params.page.library.css.someOtherCSS]
+      #   src = "someOther.css"
+      #   defer = true
+      #   attr = "customAttribute"
+      # located in "assets/"
+      # Or
+      # someCSS = "https://cdn.example.com/some.css"
+    [params.page.library.js]
+      # someJavaScript = "some.js"
+      # Enhance third-party library config
+      # [params.page.library.js.someOtherJavaScript]
+      #   src = "someOther.js"
+      #   defer = false
+      #   async = true
+      #   attr = "customAttribute"
+      # located in "assets/"
+      # Or
+      # someJavaScript = "https://cdn.example.com/some.js"
+  [params.page.seo]
+    images = []
+    [params.page.seo.publisher]
+      name = ""
+      logoUrl = ""
+    [params.page.related]
+      enable = true
+      count = 5
+
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+  # CDN config for third-party library files
+  [params.cdn]
+    # CDN data file name, disabled by default
+    # ("jsdelivr.yml")
+    # located in "themes/DoIt/assets/data/cdn/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/data/cdn/"
+    data = ""
+
 [markup]
   [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
     noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[author]
+  name = "xxxx"
+  email = "xxxx"
+  link = ""
+  avatar = ""
+  gravatarEmail = ""
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks]
+  posts = ":year/:month/:filename"
+
+[privacy]
+  [privacy.googleAnalytics]
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+[mediaTypes]
+  [mediaTypes."text/plain"]
+    suffixes = ["md"]
+
+[outputFormats.MarkDown]
+  mediaType = "text/plain"
+  isPlainText = true
+  isHTML = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  taxonomyTerm = ["HTML"]
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+series = "series"
