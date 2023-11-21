@@ -9,8 +9,6 @@ paginate = 11
 enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
-# test asdf
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
 
 [author]
   name = "Asha/Herro"
