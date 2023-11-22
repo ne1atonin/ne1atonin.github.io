@@ -67,6 +67,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
       post = ""
       typeit = true
   
+  [params.fontAwesome]
+    KitURL = "https://kit.fontawesome.com/KitID.js"
+  
   [params.footer]
     enable = true
     custom = ""
