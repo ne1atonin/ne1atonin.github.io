@@ -136,7 +136,9 @@ enableEmoji = true
       social = true
       disclaimer = ""
     [params.home.posts]
-      enable = false
+      showRecentPostsBlock = true
+      numOfRecentPosts = 5
+      recentPostsShowURl = true
       paginate = 5
       defaultHiddenFromHomePage = false
   [params.social]
@@ -149,6 +151,8 @@ enableEmoji = true
     HackTheBox = ""
 
   [params.page]
+    includeToc = true
+    showAuthor = true
     hiddenFromHomePage = false
     hiddenFromSearch = false
     twemoji = true
