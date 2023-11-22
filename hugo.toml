@@ -125,7 +125,7 @@ enableEmoji = true
     [params.home.profile]
       enable = true
       gravatarEmail = ""
-      avatarURL = "/images/avatar.webp"
+      avatarURL = ""
       avatarLinkURL = ""
       title = ""
       subtitle = "All the things"
@@ -133,7 +133,7 @@ enableEmoji = true
       social = true
       disclaimer = ""
     [params.home.posts]
-      enable = true
+      enable = false
       paginate = 5
       defaultHiddenFromHomePage = false
   [params.social]
