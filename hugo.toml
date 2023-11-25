@@ -10,8 +10,11 @@ paginate = 11
 enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
+config
 # test asdf
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
+
+main
 
 [author]
   name = "~Asha/Herro"
@@ -131,7 +134,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.home.profile]
       enable = true
       gravatarEmail = ""
-      avatarURL = "/images/avatar.webp"
+      avatarURL = ""
       avatarLinkURL = ""
       title = ""
       subtitle = "All the things"
@@ -139,7 +142,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       social = true
       disclaimer = ""
     [params.home.posts]
-      enable = true
+      showRecentPostsBlock = true
+      numOfRecentPosts = 5
+      recentPostsShowURl = true
       paginate = 5
       defaultHiddenFromHomePage = false
   [params.social]
@@ -152,6 +157,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     HackTheBox = ""
 
   [params.page]
+    includeToc = true
+    showAuthor = true
     hiddenFromHomePage = false
     hiddenFromSearch = false
     twemoji = true
