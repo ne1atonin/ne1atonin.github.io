@@ -1,6 +1,7 @@
 baseURL = "https://ne1atonin.github.io/"
-theme = "DoIt"
 title = "Asha/Herro"
+theme = "DoIt"
+
 defaultContentLanguage = "en"
 languageCode = "en"
 languageName = "English"
@@ -10,10 +11,10 @@ enableRobotsTXT = true
 enableGitInfo = false
 enableEmoji = true
 # test asdf
-ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [author]
-  name = "Asha/Herro"
+  name = "~Asha/Herro"
   email = ""
   link = "https://ne1atonin.github.io"
 
@@ -45,7 +46,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken]
 
 [params]
   version = "0.4.0"
-  title = "Asha/Herro"
+  title = "~Asha/Herro"
   description = "Unless you're really looking!"
   keywords = ["Hugo", "TryHackMe", "CyberSecurity"]
   defaultTheme = "auto"
